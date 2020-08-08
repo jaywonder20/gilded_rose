@@ -1,0 +1,22 @@
+After setting up the Starter code
+- The first step I took was to try and understand the way the code works before making any edits
+
+
+- Then I proceeded to read the GildedRoseRequirements.txt file to fully understand what the system was meant to do and the possible edge cases that must be taken care of
+
+
+- I decided to write test cases before refactoring the Code to access the current state of the code and also to ensure nothing gets broken then i start refactoring
+Then I proceeded to write the Varios text cases as specified in the  GildedRoseRequirements.txt
+
+
+- I Wrote 19 different test cases as I could identify from the GildedRoseRequirements file
+Running the test using pytest 1 FAILED and 18 passed
+
+- The cases that failed was the test_conjured_quality_for_double_decrease  as the current implementation didnt follow the rule that 
+    - "Conjured" items degrade in Quality twice as fast as normal items
+
+- I added 3 lines of code to fix this test and ran it again to ascertain no case was violated
+
+
+
+- Then I started the refactoring
